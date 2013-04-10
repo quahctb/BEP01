@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+* {margin: 0;padding: 0;font-family: Lucida Grande, Verdana, Tahoma;}
+html {font-size:11px;background-color:#FFF;background:#e1e1e1}
+
+/***
+General typography 
+***/
+h3 small, h4 small, h5 small { color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+h1.block, h2.block, h3.block, h4.block, h5.block, h6.block { padding-bottom: 10px; }
+a { text-shadow: none !important; color: #0d638f; text-decoration:none; }
+
+/********************
+ GENERAL LAYOUT 
+*********************/
+
+/***
+Header and header elements.
+***/
+.header { margin: 0 auto;width:980px;height:40px; }
+.header .login { margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal; }
+.header .login li { float:left;}
+.header .login li.email { padding:5px; }
+.header .login li.password { padding:5px; }
+.header .login li.button { padding:5px; }
+.pull-left {float:left};
+.pull-right { float:right;}
+
+/***
+Page content
+***/
+.page-container { margin-top: 0px;padding: 0px;background-color: #fff;-moz-box-shadow: 0 0 6px 6px #888;-webkit-box-shadow: 0 0 6px 6px #888;box-shadow: 0 0 4px 4px #999; }
+.page-content { margin: 0 auto;width:980px; }
